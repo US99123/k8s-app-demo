@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: result-app-pod
+  namespace: vote-app
   labels:
     name: result-app-pod
     app: demo-vote-app
